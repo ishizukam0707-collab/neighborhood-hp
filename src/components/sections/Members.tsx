@@ -53,7 +53,7 @@ export default function Members() {
                       src={member.image}
                       alt={member.name}
                       fill
-                      className="object-cover grayscale transition-all duration-500"
+                      className="object-cover transition-all duration-500"
                       unoptimized
                     />
                   ) : (
@@ -65,6 +65,15 @@ export default function Members() {
                     <div className="absolute top-2 left-2 bg-[#0d0d0d]/80 px-1.5 py-0.5">
                       <span className="font-impact text-white text-xs sm:text-sm leading-none">
                         #{member.number}
+                      </span>
+                    </div>
+                  )}
+
+                  {/* Role badge */}
+                  {member.role && (
+                    <div className="absolute top-2 right-2 bg-[#b03030] px-1.5 py-0.5">
+                      <span className="text-white text-[9px] sm:text-[10px] tracking-wider font-semibold uppercase">
+                        {member.role}
                       </span>
                     </div>
                   )}
