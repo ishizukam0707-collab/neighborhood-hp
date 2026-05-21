@@ -13,8 +13,8 @@ const targets = [
   },
   {
     id: "03",
-    en: "You don't show up\nto enjoy. You show up to win.",
-    ja: "エンジョイではなく、勝つことを前提に活動したい。",
+    en: "Not just here to play.\nHere to compete.",
+    ja: "ただ楽しむだけではなく、競うために。",
     body: "You track the score. You care about the outcome. You want to play against real competition and improve every week. If basketball is still a core part of who you are, we are on the same page.",
   },
 ];
@@ -86,10 +86,11 @@ export default function Recruit() {
           </p>
           <ul className="grid sm:grid-cols-2 gap-3">
             {[
-              { en: "Competitive basketball background (varsity preferred)", ja: "競技バスケ経験（大学体育会歴優遇）" },
+              { en: "Competitive basketball experience (any level)", ja: "競技バスケ経験（レベル問わず歓迎）" },
               { en: "Commitment to regular practices", ja: "定期的な練習への参加" },
               { en: "Respect for teammates and the game", ja: "チームメイトとゲームへのリスペクト" },
               { en: "Drive to improve and to win", ja: "成長への意欲と勝利へのこだわり" },
+              { en: "Consistent attendance — team first", ja: "チームを最優先にした継続参加" },
             ].map((req) => (
               <li key={req.en} className="flex items-start gap-3">
                 <span className="mt-[7px] w-1.5 h-1.5 bg-[#606060] flex-shrink-0" />

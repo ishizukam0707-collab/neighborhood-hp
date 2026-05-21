@@ -7,8 +7,8 @@ const navLinks = [
   { label: "RESULTS", href: "#achievements" },
   { label: "PRACTICE", href: "#practice" },
   { label: "MEMBERS", href: "#members" },
-  { label: "ACTIVITY", href: "#activity" },
   { label: "JOIN US", href: "#recruit", accent: true },
+  { label: "CONTACT", href: "#contact" },
 ];
 
 export default function Header() {
@@ -69,21 +69,9 @@ export default function Header() {
           onClick={() => setMenuOpen((v) => !v)}
           aria-label="Toggle menu"
         >
-          <span
-            className={`block h-[1.5px] bg-white transition-all duration-200 origin-center ${
-              menuOpen ? "rotate-45 translate-y-[6.5px]" : ""
-            }`}
-          />
-          <span
-            className={`block h-[1.5px] bg-white transition-all duration-200 ${
-              menuOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`block h-[1.5px] bg-white transition-all duration-200 origin-center ${
-              menuOpen ? "-rotate-45 -translate-y-[6.5px]" : ""
-            }`}
-          />
+          <span className={`block h-[1.5px] bg-white transition-all duration-200 origin-center ${menuOpen ? "rotate-45 translate-y-[6.5px]" : ""}`} />
+          <span className={`block h-[1.5px] bg-white transition-all duration-200 ${menuOpen ? "opacity-0" : ""}`} />
+          <span className={`block h-[1.5px] bg-white transition-all duration-200 origin-center ${menuOpen ? "-rotate-45 -translate-y-[6.5px]" : ""}`} />
         </button>
       </div>
 

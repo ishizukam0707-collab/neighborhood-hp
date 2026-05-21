@@ -5,7 +5,6 @@ import About from "@/components/sections/About";
 import Achievements from "@/components/sections/Achievements";
 import Practice from "@/components/sections/Practice";
 import Members from "@/components/sections/Members";
-import Activity from "@/components/sections/Activity";
 import Recruit from "@/components/sections/Recruit";
 import Contact from "@/components/sections/Contact";
 
@@ -19,7 +18,6 @@ export default function Home() {
         <Achievements />
         <Practice />
         <Members />
-        <Activity />
         <Recruit />
         <Contact />
       </main>

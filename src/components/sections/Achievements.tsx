@@ -35,23 +35,29 @@ export default function Achievements() {
                 <p className="text-[#0d0d0d] text-sm font-semibold tracking-wide leading-snug">
                   {item.league}
                 </p>
-                <p className="text-[#808080] text-[11px] tracking-widest uppercase mt-0.5">
+                <p className="text-[#b0b0b0] text-[10px] mt-0.5">{item.leagueJa}</p>
+                <p className="text-[#808080] text-[11px] tracking-widest uppercase mt-1">
                   {item.division}
                 </p>
+                <p className="text-[#b0b0b0] text-[10px] mt-0.5">{item.divisionJa}</p>
               </div>
 
               {/* Result */}
-              <p
-                className="font-impact text-[#0d0d0d] uppercase leading-none"
-                style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}
-              >
-                {item.result}
-              </p>
+              <div>
+                <p
+                  className="font-impact text-[#0d0d0d] uppercase leading-none"
+                  style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}
+                >
+                  {item.result}
+                </p>
+                <p className="text-[#b0b0b0] text-xs mt-1">{item.resultJa}</p>
+              </div>
 
               {/* Detail */}
-              <p className="text-[#6b6b6b] text-sm leading-relaxed border-t border-gray-100 pt-5">
-                {item.detail}
-              </p>
+              <div className="border-t border-gray-100 pt-5">
+                <p className="text-[#6b6b6b] text-sm leading-relaxed">{item.detail}</p>
+                <p className="text-[#b0b0b0] text-xs leading-relaxed mt-2">{item.detailJa}</p>
+              </div>
             </div>
           ))}
         </div>

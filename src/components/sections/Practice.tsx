@@ -61,10 +61,10 @@ export default function Practice() {
                 Official &amp; Practice Games
               </p>
               <p className="text-[#0d0d0d] text-sm sm:text-base leading-relaxed font-medium">
-                週末・祝日を中心に公式戦・練習試合を実施
+                Scheduled on weekends and holidays based on league entry status.
               </p>
               <p className="text-[#808080] text-xs sm:text-sm mt-1 leading-relaxed">
-                Scheduled on weekends and holidays based on league entry status.
+                週末・祝日を中心に公式戦・練習試合を実施
               </p>
             </div>
           </div>

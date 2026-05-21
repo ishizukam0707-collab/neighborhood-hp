@@ -40,7 +40,7 @@ export const members: Member[] = [
     name: "Kento Yamamoto",
     position: "PG",
     height: 165,
-    university: "Waseda University",
+    university: "Waseda Univ.",
     image: "/images/members/m01.jpg",
   },
   // ── 2 ──────────────────────────────────────────────────────
@@ -50,7 +50,7 @@ export const members: Member[] = [
     name: "Masayuki Ishigure",
     position: "SG",
     height: 178,
-    university: "Meiji University",
+    university: "Meiji Univ.",
     image: "/images/members/m02.jpg",
   },
   // ── 3 ──────────────────────────────────────────────────────
@@ -60,7 +60,7 @@ export const members: Member[] = [
     name: "Seiya Tsukamoto",
     position: "SF",
     height: 183,
-    university: "Hiroshima University",
+    university: "Hiroshima Univ.",
     image: "/images/members/m03.jpg",
   },
   // ── 4 ──────────────────────────────────────────────────────
@@ -70,7 +70,7 @@ export const members: Member[] = [
     name: "Rio Saito",
     position: "PG",
     height: 177,
-    university: "Edogawa University",
+    university: "Edogawa Univ.",
     image: "/images/members/m04.jpg",
   },
   // ── 5 ──────────────────────────────────────────────────────
@@ -80,7 +80,7 @@ export const members: Member[] = [
     name: "Yota Tsuzuki",
     position: "C",
     height: 190,
-    university: "Kagoshima University",
+    university: "Kagoshima Univ.",
     image: "/images/members/m05.jpg",
   },
   // ── 6 ──────────────────────────────────────────────────────
@@ -90,7 +90,7 @@ export const members: Member[] = [
     name: "Masaharu Ishizuka",
     position: "SG",
     height: 180,
-    university: "Meiji University",
+    university: "Meiji Univ.",
     image: "/images/members/m06.jpg",
     role: "Founder",
   },
@@ -101,7 +101,7 @@ export const members: Member[] = [
     name: "Yunosuke Hama",
     position: "PG",
     height: 175,
-    university: "Waseda University",
+    university: "Waseda Univ.",
     image: "/images/members/m07.jpg",
   },
   // ── 8 ──────────────────────────────────────────────────────
@@ -111,7 +111,7 @@ export const members: Member[] = [
     name: "Shinga Ino",
     position: "SG",
     height: 165,
-    university: "Meiji University",
+    university: "Meiji Univ.",
     image: "/images/members/m08.jpg",
   },
   // ── 9 ──────────────────────────────────────────────────────
@@ -131,7 +131,7 @@ export const members: Member[] = [
     name: "Ryota Kawafuji",
     position: "SF",
     height: 181,
-    university: "Meiji University",
+    university: "Meiji Univ.",
     image: "/images/members/m10.jpg",
   },
   // ── 11 ─────────────────────────────────────────────────────
@@ -141,7 +141,7 @@ export const members: Member[] = [
     name: "Takehiro Fujiwara",
     position: "SF",
     height: 184,
-    university: "Waseda University",
+    university: "Waseda Univ.",
     image: "/images/members/m11.jpg",
     role: "Captain",
   },
@@ -152,7 +152,7 @@ export const members: Member[] = [
     name: "Sosuke Yasumura",
     position: "PG",
     height: 181,
-    university: "University of Tokyo",
+    university: "Univ. of Tokyo",
     image: "/images/members/m12.jpg",
   },
   // ── 13 ─────────────────────────────────────────────────────
@@ -162,7 +162,7 @@ export const members: Member[] = [
     name: "Yosuke Kikuchihara",
     position: "C",
     height: 192,
-    university: "Meiji University",
+    university: "Meiji Univ.",
     image: "",                          // 写真未準備
   },
   // ── 14 ─────────────────────────────────────────────────────
@@ -172,7 +172,7 @@ export const members: Member[] = [
     name: "Yukihiro Ishii",
     position: "SG",
     height: 177,
-    university: "Edogawa University",
+    university: "Edogawa Univ.",
     image: "",                          // 写真未準備
   },
   // ── 15 ─────────────────────────────────────────────────────
@@ -182,7 +182,7 @@ export const members: Member[] = [
     name: "Sho Tomoi",
     position: "PG",
     height: 175,
-    university: "Nihon University",
+    university: "Nihon Univ.",
     image: "/images/members/m15.jpg",
   },
   // ── 16 ─────────────────────────────────────────────────────
@@ -192,7 +192,7 @@ export const members: Member[] = [
     name: "Kento Ikeda",
     position: "C",
     height: 192,
-    university: "Waseda University",
+    university: "Waseda Univ.",
     image: "/images/members/m16.jpg",
   },
 ];

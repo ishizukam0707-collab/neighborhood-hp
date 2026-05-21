@@ -23,7 +23,6 @@ export default function About() {
             >
               We take the game<br />seriously.
             </p>
-            {/* Japanese */}
             <p className="text-[#9a9a9a] text-xs sm:text-sm mt-3 leading-relaxed">
               本気で競技に向き合う、東京の社会人バスケットボールチーム。
             </p>
@@ -32,7 +31,7 @@ export default function About() {
 
             {/* Tags */}
             <div className="mt-8 flex flex-wrap gap-2">
-              {["Competitive", "Adult League", "Tokyo", "Former Varsity"].map((tag) => (
+              {["Competitive", "Adult League", "Tokyo", "Various Backgrounds"].map((tag) => (
                 <span
                   key={tag}
                   className="text-[10px] tracking-widest uppercase border border-gray-300 text-gray-500 px-3 py-1.5"
@@ -63,13 +62,14 @@ export default function About() {
           <div className="space-y-5 text-[#333] text-sm sm:text-base leading-relaxed">
             <p>
               NEIGHBORHOOD is a competitive basketball team based in Tokyo,
-              built for professionals who are serious about the sport.
+              built for players who are serious about the sport.
               We are not a social club. We are a team.
             </p>
             <p>
-              Our members come from university varsity programs and high-level
-              competitive backgrounds. Work and family come first — but when
-              we step on the court, we are here to win.
+              Our members come from a variety of basketball backgrounds —
+              company teams, university programs, recreational leagues, and more.
+              Work and family come first — but when we step on the court,
+              we are here to compete.
             </p>
             <p>
               We train consistently, play in multiple leagues, and push each
@@ -79,8 +79,9 @@ export default function About() {
 
             {/* Japanese paragraph */}
             <p className="text-[#a0a0a0] text-xs sm:text-sm leading-relaxed pt-2 border-t border-gray-100">
-              仕事や家庭と両立しながらも、アマチュア最高峰を目指して真剣に競技に取り組む社会人バスケットボールチームです。
-              大学体育会や競技経験者を中心に構成されており、単なるエンジョイチームではなく、勝ちにこだわった本気の活動をしています。
+              仕事や家庭と両立しながらも、真剣に競技に取り組む社会人バスケットボールチームです。
+              社会人実業団・大学体育会・サークルなど様々なバックグラウンドを持つ選手たちで構成されており、
+              単なるエンジョイチームではなく勝ちにこだわった活動をしています。
             </p>
 
             {/* CTA */}

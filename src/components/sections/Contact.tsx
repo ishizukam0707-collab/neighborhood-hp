@@ -36,12 +36,29 @@ export default function Contact() {
 
             <p className="mt-7 text-[#4a4a4a] text-sm sm:text-base leading-relaxed max-w-md">
               All inquiries are handled through Instagram Direct Message.
-              Send us a message with your playing background, position,
-              and what you are looking for. We will get back to you.
+              Please include the following in your message:
             </p>
-            <p className="text-[#a0a0a0] text-xs sm:text-sm leading-relaxed mt-3 max-w-md">
-              お問い合わせはInstagram DMにてお受けしています。
-              プレー歴やポジション、参加を検討している理由などを添えてメッセージをお送りください。
+
+            <ul className="mt-4 space-y-2">
+              {[
+                { en: "Basketball background", ja: "バスケ歴" },
+                { en: "Position", ja: "ポジション" },
+                { en: "Height", ja: "身長" },
+                { en: "Availability for Sunday practices", ja: "日曜練習への参加可否" },
+                { en: "What you are looking for", ja: "参加・加入の目的" },
+              ].map((item) => (
+                <li key={item.en} className="flex items-start gap-2.5">
+                  <span className="mt-[7px] w-1.5 h-1.5 bg-[#b03030] flex-shrink-0" />
+                  <div>
+                    <span className="text-[#333] text-sm">{item.en}</span>
+                    <span className="text-[#b0b0b0] text-xs ml-2">{item.ja}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+
+            <p className="text-[#a0a0a0] text-xs leading-relaxed mt-4 max-w-md">
+              上記の内容を添えてInstagram DMよりご連絡ください。
             </p>
           </div>
 
