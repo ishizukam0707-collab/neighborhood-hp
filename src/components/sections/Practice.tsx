@@ -79,9 +79,9 @@ export default function Practice() {
                 className="font-impact text-[#0d0d0d] uppercase leading-tight"
                 style={{ fontSize: "clamp(26px, 3.8vw, 50px)" }}
               >
-                5–6 sessions<br />per month
+                5–6 practices<br />per month
               </p>
-              <p className="text-[#9a9a9a] text-xs sm:text-sm mt-2">月5〜6回の定期練習</p>
+              <p className="text-[#9a9a9a] text-xs sm:text-sm mt-2">月5〜6回程度</p>
               <div className="mt-6 w-12 h-[2px] bg-[#b03030]" />
             </div>
 

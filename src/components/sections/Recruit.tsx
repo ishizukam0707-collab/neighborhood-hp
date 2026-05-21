@@ -82,7 +82,7 @@ export default function Recruit() {
         {/* Requirements */}
         <div className="bg-[#141414] border border-[#2a2a2a] p-6 sm:p-8 mb-10 sm:mb-12">
           <p className="text-[#606060] text-[10px] tracking-[0.25em] uppercase mb-5">
-            We expect / チームに期待すること
+            We expect / チームが期待すること
           </p>
           <ul className="grid sm:grid-cols-2 gap-3">
             {[

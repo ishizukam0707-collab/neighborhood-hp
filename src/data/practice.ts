@@ -22,6 +22,6 @@ export const practiceSessions: PracticeSession[] = [
 ];
 
 export const practiceInfo = {
-  frequency: "Around 5–6 sessions per month",
+  frequency: "Around 5–6 practices per month",
   games: "Official games and practice games on weekends or holidays depending on entries.",
 };

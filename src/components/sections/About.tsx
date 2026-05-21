@@ -31,7 +31,7 @@ export default function About() {
 
             {/* Tags */}
             <div className="mt-8 flex flex-wrap gap-2">
-              {["Competitive", "Adult League", "Tokyo", "Various Backgrounds"].map((tag) => (
+              {["Competitive", "Social League", "Tokyo", "Various Backgrounds"].map((tag) => (
                 <span
                   key={tag}
                   className="text-[10px] tracking-widest uppercase border border-gray-300 text-gray-500 px-3 py-1.5"

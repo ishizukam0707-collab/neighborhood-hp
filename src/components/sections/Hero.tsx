@@ -99,7 +99,7 @@ export default function Hero() {
             { label: "Founded", value: "2023" },
             { label: "Base", value: "Tokyo" },
             { label: "Tokyo League", value: "Div. 2" },
-            { label: "Sessions / mo.", value: "5–6" },
+            { label: "Practices / Month", value: "5–6" },
           ].map((item) => (
             <div key={item.label} className="flex items-baseline gap-2">
               <span className="font-impact text-white text-sm sm:text-base uppercase leading-none">
