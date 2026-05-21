@@ -153,12 +153,12 @@ export default function Activity() {
               ACTIVITY
             </h2>
             <a
-              href="https://www.instagram.com/neighborhood.est2023/"
+              href="https://www.instagram.com/neighborhood.basketballcrew/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#a0a0a0] text-[11px] tracking-[0.2em] uppercase hover:text-[#0d0d0d] transition-colors duration-200 pb-1"
             >
-              @neighborhood.est2023 →
+              @neighborhood.basketballcrew →
             </a>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function Activity() {
         {/* Instagram CTA */}
         <div className="mt-10 sm:mt-12 flex justify-center">
           <a
-            href="https://www.instagram.com/neighborhood.est2023/"
+            href="https://www.instagram.com/neighborhood.basketballcrew/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 border border-gray-300 bg-white px-6 py-3 text-[#333] text-[11px] tracking-[0.2em] uppercase hover:border-[#0d0d0d] hover:text-[#0d0d0d] transition-colors duration-200 min-h-[44px]"

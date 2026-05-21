@@ -120,7 +120,7 @@ export default function Recruit() {
             </p>
           </div>
           <a
-            href="https://www.instagram.com/neighborhood.est2023/"
+            href="https://www.instagram.com/neighborhood.basketballcrew/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-shrink-0 inline-flex items-center justify-center px-8 py-4 bg-[#b03030] text-white text-xs sm:text-sm tracking-[0.22em] uppercase font-semibold hover:bg-[#c94444] transition-colors duration-200 min-h-[52px] w-full sm:w-auto"

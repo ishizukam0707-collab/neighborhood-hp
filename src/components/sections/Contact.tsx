@@ -1,4 +1,4 @@
-const INSTAGRAM_URL = "https://www.instagram.com/neighborhood.est2023/";
+const INSTAGRAM_URL = "https://www.instagram.com/neighborhood.basketballcrew/";
 
 export default function Contact() {
   return (
@@ -79,7 +79,7 @@ export default function Contact() {
               </div>
 
               <p className="font-impact text-[#0d0d0d] text-xl sm:text-2xl lg:text-3xl group-hover:text-[#b03030] transition-colors duration-300 leading-tight">
-                @neighborhood.est2023
+                @neighborhood.basketballcrew
               </p>
               <p className="text-[#a0a0a0] text-sm mt-2">
                 DM open — we respond to all serious inquiries

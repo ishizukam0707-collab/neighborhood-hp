@@ -70,7 +70,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-wrap gap-3">
           <a
-            href="https://www.instagram.com/neighborhood.est2023/"
+            href="https://www.instagram.com/neighborhood.basketballcrew/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-3 bg-[#b03030] text-white text-[11px] tracking-[0.22em] uppercase font-semibold hover:bg-[#c94444] transition-colors duration-200 min-h-[44px]"

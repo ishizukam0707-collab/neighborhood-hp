@@ -105,7 +105,7 @@ export default function Practice() {
             {/* CTA */}
             <div className="pt-2">
               <a
-                href="https://www.instagram.com/neighborhood.est2023/"
+                href="https://www.instagram.com/neighborhood.basketballcrew/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-3.5 bg-[#0d0d0d] text-white text-[11px] tracking-[0.22em] uppercase font-semibold hover:bg-[#b03030] transition-colors duration-200 min-h-[48px]"
