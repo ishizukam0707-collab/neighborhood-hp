@@ -2,7 +2,7 @@ import { practiceSessions, practiceInfo } from "@/data/practice";
 
 export default function Practice() {
   return (
-    <section id="practice" className="bg-white py-16 sm:py-24 lg:py-32 overflow-hidden">
+    <section id="practice" className="bg-[#f4f4f4] py-16 sm:py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
 
         {/* Section heading */}
@@ -25,7 +25,7 @@ export default function Practice() {
             {practiceSessions.map((session) => (
               <div
                 key={session.id}
-                className="border border-gray-200 bg-[#f9f9f9] p-6 sm:p-7"
+                className="border border-gray-200 bg-white p-6 sm:p-7"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div>
@@ -56,7 +56,7 @@ export default function Practice() {
             ))}
 
             {/* Games card */}
-            <div className="border border-gray-200 bg-[#f9f9f9] p-6 sm:p-7">
+            <div className="border border-gray-200 bg-white p-6 sm:p-7">
               <p className="text-[#a0a0a0] text-[10px] tracking-[0.25em] uppercase mb-2">
                 Official &amp; Practice Games
               </p>

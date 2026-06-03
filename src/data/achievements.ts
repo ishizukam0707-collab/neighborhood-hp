@@ -11,6 +11,45 @@ export type Achievement = {
   year?: string;
 };
 
+export type SelectedPlayer = {
+  number: string;
+  name: string;
+};
+
+export type FeaturedResult = {
+  year: string;
+  tournament: string;
+  tournamentJa: string;
+  representativeJa: string;
+  result: string;
+  resultJa: string;
+  body: string;
+  images: string[];
+  selectedPlayers: SelectedPlayer[];
+};
+
+export const featuredResult: FeaturedResult = {
+  year: "2026",
+  tournament: "Tokyo Metropolitan Tournament",
+  tournamentJa: "東京都民大会",
+  representativeJa: "江東区代表",
+  result: "RUNNER-UP",
+  resultJa: "準優勝",
+  body: "江東区代表として準優勝。NEIGHBORHOODから6名が出場し、東京2位という結果を残しました。",
+  images: [
+    "/images/result/tomin-2026-2.jpg",
+    "/images/result/tomin-2026-3.jpg",
+  ],
+  selectedPlayers: [
+    { number: "3", name: "Seiya Tsukamoto" },
+    { number: "7", name: "Yota Tsuzuki" },
+    { number: "8", name: "Masaharu Ishizuka" },
+    { number: "10", name: "Yunosuke Hama" },
+    { number: "17", name: "Takehiro Fujiwara" },
+    { number: "21", name: "Sosuke Yasumura" },
+  ],
+};
+
 export const achievements: Achievement[] = [
   {
     id: "achievement-01",
